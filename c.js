@@ -1,6 +1,6 @@
 const { Client, Intents } = require("discord.js");
 const Discord = require("discord.js");
-const {prefix,token} = require('./config.json')
+const {prefix} = require('./config.json')
 const client = new Client({
   intents: [
     Intents.FLAGS.GUILDS,
@@ -22,4 +22,4 @@ client.on("ready", () => {
     }); 
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
