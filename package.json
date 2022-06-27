@@ -1,16 +1,17 @@
 {
-  "name": "test",
+  "name": "nuker",
   "version": "1.0.0",
-  "description": "",
-  "main": "c.js",
+  "description": "Fastest nuker bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node c.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "SkiLLed",
+  "license": "UNLICENSED",
   "dependencies": {
-    "discord": "^0.8.2",
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.4.1",
+    "express": "^4.17.1",
+    "guild": "^1.2.2",
+    "ms": "^2.1.2"
   }
 }
